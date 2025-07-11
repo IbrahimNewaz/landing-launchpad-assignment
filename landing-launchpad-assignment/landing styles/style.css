@@ -1,0 +1,59 @@
+/*Font added*/
+
+/* font 1 Inter */
+.inter-normal {
+    font-family: "inter";
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  /* font 2 Raleway */
+  
+.Raleway-regula{
+    font-family: "Raleway";
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  /*This button is responsible for nav bar*/
+.signup-bton
+{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    width:132px ;
+    height: 48px;
+
+    margin: 36px 12px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    gap: 16px;
+    border: none;
+    cursor: grab;
+}
+.signup-bton:hover
+{
+    font-size: 17.5;
+    font-weight: bolder;
+    font-style: italic;
+    border: navy solid 1px;
+    background-color: blueviolet;
+    cursor: grabbing;
+}
+
+/* 🚩 nav-bar styles  🚩*/
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav h3
+{
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: bold;
+}
