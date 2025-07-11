@@ -1,3 +1,13 @@
+/* Total magarment  */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content-X {
+    width: 1440px;
+    margin: 0 auto;
+  }
 /*Font added*/
 
 /* font 1 Inter */
@@ -15,6 +25,7 @@
   font-style: normal;
 }
 
+/* 🔴 All Buttons 🔴 */
 /*This button is responsible for nav bar*/
 .signup-bton {
   color: #ffffff;
@@ -39,6 +50,31 @@
   cursor: grabbing;
 }
 
+.Focused-bton
+{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    width: 175px;
+    height: 48px;
+  
+    margin: 36px 12px;
+    border-radius: 10px;
+    background-color: #4e47ff;
+    gap: 16px;
+    border: none;
+    cursor: grab;   
+}
+.Focused-bton:hover
+{
+    font-size: 17.5;
+    font-weight: bolder;
+    font-style: italic;
+    border: navy solid 1px;
+    background-color: blueviolet;
+    cursor: grabbing;
+}
+
 /* Total magarment  */
 * {
   margin: 0;
@@ -61,13 +97,40 @@
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 40px;
+
+
 }
 
 nav h3 {
   color: #4e47ff;
-  font-size: 34px;
-  font-weight: bold;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+/* 🚩🟩 Banner Part  🟩🚩*/
+
+.banner-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 140px 633px 100px 633px;
+
+}
+
+.banner-titel h2
+{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    width: 905px;
+    height: 152px;
+
 }
