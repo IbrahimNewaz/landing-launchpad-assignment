@@ -1,13 +1,13 @@
 /* Total magarment  */
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .content-X {
-    width: 1440px;
-    margin: 0 auto;
-  }
+  margin: 0;
+  padding: 0;
+}
+
+.content-X {
+  width: 1440px;
+  margin: 0 auto;
+}
 /*Font added*/
 
 /* font 1 Inter */
@@ -49,31 +49,55 @@
   background-color: blueviolet;
   cursor: grabbing;
 }
+/* ------------------------ */
+/* Focused button */
+.Focused-bton {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  width: 175px;
+  height: 48px;
 
-.Focused-bton
-{
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
-    width: 175px;
-    height: 48px;
-  
-    margin: 36px 12px;
-    border-radius: 10px;
-    background-color: #4e47ff;
-    gap: 16px;
-    border: none;
-    cursor: grab;   
+  margin: 36px 12px;
+  border-radius: 10px;
+  background-color: #4e47ff;
+  gap: 16px;
+  border: none;
+  cursor: grab;
 }
-.Focused-bton:hover
-{
-    font-size: 17.5;
-    font-weight: bolder;
-    font-style: italic;
-    border: navy solid 1px;
-    background-color: blueviolet;
-    cursor: grabbing;
+.Focused-bton:hover {
+  font-size: 17.5;
+  font-weight: bolder;
+  font-style: italic;
+  border: navy solid 1px;
+  background-color: blueviolet;
+  cursor: grabbing;
 }
+/* ---------------------------- */
+/* Launch Live Button */
+.Launch-Live {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  width: 230px;
+  height: 48px;
+
+  margin: 36px 12px;
+  border-radius: 10px;
+  background-color: #4e47ff;
+  gap: 16px;
+  border: none;
+  cursor: grab;
+}
+.Launch-Live:hover {
+  font-size: 17.5;
+  font-weight: bolder;
+  font-style: italic;
+  border: navy solid 1px;
+  background-color: blueviolet;
+  cursor: grabbing;
+}
+/* -------------------------- */
 
 /* Total magarment  */
 * {
@@ -103,8 +127,6 @@ nav {
   margin-right: 50px;
   margin-left: 50px;
   padding-top: 40px;
-
-
 }
 
 nav h3 {
@@ -115,22 +137,62 @@ nav h3 {
 
 /* 🚩🟩 Banner Part  🟩🚩*/
 
-.banner-content
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 140px 633px 100px 633px;
-
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 140px 633px 100px 633px;
 }
 
-.banner-titel h2
-{
-    font-size: 65px;
-    font-weight: bold;
-    color: #252432;
-    text-align: center;
-    width: 905px;
-    height: 152px;
+.banner-titel h2 {
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+  text-align: center;
+  width: 905px;
+  height: 152px;
+}
 
+/* 🟩🔽 2nd part of coding Action Box start from here 🔽🟩 */
+
+.acction {
+  width: 1140px;
+  height: 328px;
+}
+.action-box {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 117px;
+}
+.act-comment {
+  width: 520px;
+  height: 217px;
+
+  text-align: left;
+  align-items: start;
+
+  margin-top: 62px;
+  margin-bottom: 62px;
+}
+
+.act-comment h2 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 23px;
+}
+.act-comment p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #25243250;
+  line-height: 30px;
+}
+
+.act-image img {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
 }
