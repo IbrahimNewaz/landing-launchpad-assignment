@@ -196,3 +196,58 @@ nav h3 {
   height: 328px;
   border-radius: 48px;
 }
+
+
+/* 🟩 Productive Section coding Start from here 🟩 */
+.Productive
+{
+    width: 1140px;
+    height: 306px;
+    background-color: #4E47FF10;
+    border-radius: 24px;
+    margin-left: 140px;
+    margin-top: 116px;
+}
+.Productive-box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Productive-box h2
+{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.user-data
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 80px;
+}
+
+.data-info h1
+{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.data-info h4
+{
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000050;
+}
+
+.data-info
+{
+    text-align: center;
+}
