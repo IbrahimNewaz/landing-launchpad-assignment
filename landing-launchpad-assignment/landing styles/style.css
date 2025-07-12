@@ -98,6 +98,7 @@
   cursor: grabbing;
 }
 
+/* STarted Free Button */
 .Started-Free {
   color: #ffffff;
   font-size: 16px;
@@ -121,6 +122,7 @@
   cursor: grabbing;
 }
 
+/* Get Touch Botton */
 .Get-Touch {
   color: #ffffff;
   font-size: 16px;
@@ -495,4 +497,58 @@ textarea {
   border: 1px solid #d6dded;
   border-radius: 10px;
   padding: 20px 257px 50px 32px;
+}
+
+/* 🟩 Footer part start from here 🟩 */
+.tail {
+  width: 1440px;
+  height: 428px;
+  margin-top: 250px;
+  background-color: #ffffff;
+}
+.tail-tracking
+{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.tail-tracking h1
+{
+  font-size: 100px;
+  font-weight: bolder;
+  color: #4e47ff;
+  padding-top: 104px;
+  text-align: center;
+}
+.tail-tracking p
+{
+  font-size: 14px;
+  font-weight: 400;
+  color: #8987A1;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  margin-left: 415px;
+  margin-right: 415px;
+  width: 504px;
+  height: 48px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.tail-link
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+.tail-link a
+{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8987A1;
 }
